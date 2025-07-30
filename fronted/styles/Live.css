@@ -1,0 +1,55 @@
+.live-page {
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.live-page h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.live-page h4 {
+  text-align: center;
+  color: #cccccc;
+}
+
+.live-page p {
+  line-height: 2;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.live-page .text-success {
+  color: #00ff88 !important;
+  font-weight: bold;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background-color: #cc0000;
+  border: none;
+}
+
+.btn-outline-light {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: black;
+}

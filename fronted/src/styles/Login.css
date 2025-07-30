@@ -1,0 +1,46 @@
+.login-bg {
+  background: radial-gradient(circle at center, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: #111;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-label {
+  color: #fff;
+}
+
+.form-control,
+.form-select {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+
+.text-info.pointer {
+  cursor: pointer;
+}
